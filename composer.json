@@ -1,0 +1,7 @@
+{
+  "name": "tpzurdo/drupalmodule",
+  "type": "drupal-custom-module",
+  "require": {
+    "composer/installers": "^2.0"
+  }
+}
