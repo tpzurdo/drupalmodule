@@ -1,0 +1,5 @@
+drupalmodule.node.jsonapi:
+  route_name: drupalmodule.node.jsonapi
+  title: "JSON view"
+  base_route: entity.node.canonical
+  weight: 15

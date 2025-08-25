@@ -1,0 +1,11 @@
+drupalmodule.node.jsonapi:
+  path: "/node/{node}/jsonapi"
+  defaults:
+    _controller: '\Drupal\drupalmodule\Controller\JsonapiNodeRedirectController::go'
+    _title: "JSON:API"
+  requirements:
+    _entity_access: "node.view"
+  options:
+    parameters:
+      node:
+        type: entity:node

@@ -1,0 +1,7 @@
+name: Drupal Module Base Extras
+type: module
+description: Adds a JSON:API tab to node pages.
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:jsonapi
